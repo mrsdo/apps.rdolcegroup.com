@@ -1,3 +1,9 @@
+/*
+ * /server.js | M.Dolce, MERN Portfolio, marti@rdolcegroup.com, 202212
+ * Function ---
+ * This file is uses Express, Morgan and Routing to define the functionality of the server used for the application.
+ * ------------
+ */
 const express = require('express');
 const morgan = require('morgan');
 
@@ -10,7 +16,10 @@ app.use(express.json());
 
 app.all('/listings', (req, res, next) => {
     res.statusCode = 200;
+    // send back plain text in the body
     res.setHeader('Content-Type', 'text/plain');
+    // passes control of the application router back to the next relevant routing method after this one.
+    // otherwise it will just stop here and not go any further.
     next();
 });
 
