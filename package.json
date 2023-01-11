@@ -1,0 +1,14 @@
+{
+  "name": "shegottablog",
+  "version": "1.0.0",
+  "description": "Demonstration of what I've learned at Nucamp Full Stack.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
