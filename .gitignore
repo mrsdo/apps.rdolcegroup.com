@@ -1,3 +1,4 @@
+# project root
 node_modules/
 .expo/
 dist/
@@ -8,6 +9,9 @@ npm-debug.*
 *.key
 *.mobileprovision
 *.orig.*
+
+# express-server
+/express-server/node_modules
 
 # macOS
 .DS_Store
