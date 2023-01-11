@@ -1,7 +1,7 @@
 {
-  "name": "shegottablog",
+  "name": "vacation-listings-app",
   "version": "1.0.0",
-  "description": "Demonstration of what I've learned at Nucamp Full Stack.",
+  "description": "MERN stack featuring vacation rental listings for the R.Dolce Group.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
