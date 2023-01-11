@@ -1,31 +1,42 @@
-# M.Dolce shegottablog Demo
+# M.Dolce R. Dolce Group Vacation Rental Listings Demo
 - Version 1.0.0
-- Last Updated January 10, 2023
-- Author: she@shegottablog.com
+- Last Updated January 11, 2023
+- Author: marti@rdolcegroup.com
 - Timeline to completion: 20 days
 ---
-Creating a simple project demonstrating technologies used to build portfolios of technologies learned while attending Nucamp Bootcamp.
-When developing this application there were a variety of source codes, tutorials, books and web articles analyzed to explore the most effective way for development on a short scale.
+Creating a simple MERN Vacation Listings project demonstrating technologies used to build portfolios of technologies learned while attending Nucamp Bootcamp.
+When developing this application there were a variety of source codes, tutorials, books and web articles analyzed to explore the most effective way for development of this application on a short scale.
 
 ## Key Environment Features
 A list of packages used in this project.
 
 
-| Package                            | Description                                                            |
-|------------------------------------|------------------------------------------------------------------------|
-| `Express`                          | https://www.npmjs.com/package/express                                  |
-| `Morgan middleware`                | https://www.npmjs.com/package/morgan                                   |
+| Package                           | Description                           |
+|-----------------------------------|---------------------------------------|
+| `Express`                         | https://www.npmjs.com/package/express |
+| `Morgan middleware`               | https://www.npmjs.com/package/morgan  |
+| `Postman Application`             | https://www.postman.com/downloads/    |
+
 
 
 ---
-## Giving Credit
+## Server Features
+[x] - Express Server with Routing and Middleware 01.14.23
+[ ] - Integrating MongoDB with Listing data, images, and APIs 01.21.23
+[ ] - Adding User Authentication 01.21.23
 
-> Images used as background by graphics4u | https://elements.envato.com/user/graphics4u/graphics
+---
+## POSTMAN REST API Testing (GET | POST | PUT | DELETE)
+ 
+The following are screen examples demonstrating the functionality of Express and the built-in express.json() routing features.
 
-| Home | OnBoarding | Login | Registration |
-| --- | --- | --- | --- |
-| [![Graphics4u @ Envator](https://elements-preview-images-0.imgix.net/465e8bec-74a2-4328-b83e-8dce481deeb7?auto=compress%2Cformat&fit=max&w=2740&s=48c4413cd7796d42a682bc7caa921a51)](https://elements.envato.com/user/graphics4u/graphics) | [![Graphics4u @ Envator](https://elements-preview-images-0.imgix.net/fbe9ab95-7611-4429-85e8-4c92ecee6469?auto=compress%2Cformat&fit=max&w=2740&s=ab4f304de54f29aa6199ac458d338b36)](https://elements.envato.com/user/graphics4u/graphics) |[![Graphics4u @ Envator](https://elements-preview-images-0.imgix.net/394c4f47-f00c-4543-a511-084dc4738883?auto=compress%2Cformat&fit=max&w=2740&s=770b94d507d26bc9746c0bd82f3ddff3)](https://elements.envato.com/user/graphics4u/graphics) | [![Graphics4u @ Envator](https://elements-preview-images-0.imgix.net/d54e1cf2-69e7-47dd-8f7f-4cf55f479535?auto=compress%2Cformat&fit=max&w=2740&s=665f47b9bd44e8b59fbec86e22da4161)](https://elements.envato.com/user/graphics4u/graphics) |
 
+| GET                                                                       | POST                                                                       | PUT                                                                        | DELETE                                                                    | 
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------| 
+|<img src="man/dev-assets/postman/postman-03.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-05.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-07.jpg" width="300" height="180"> |<img src="man/dev-assets/postman/postman-09.jpg" width="300" height="180"> | 
+|<img src="man/dev-assets/postman/postman-04.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-06.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-08.jpg" width="300" height="180"> |<img src="man/dev-assets/postman/postman-10.jpg" width="300" height="180"> | 
+
+---
 
 ## Resources & Inspiration
 
