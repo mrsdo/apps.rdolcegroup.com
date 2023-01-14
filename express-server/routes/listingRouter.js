@@ -28,4 +28,22 @@ listingRouter.route('/')
         res.end('Deleting all listings');
     });
 
+listingRouter.route('/:listingId')
+  .get((req, res) => {
+    res.end(`Will GET details of the listing: ${req.params.listingId} to you`);
+  })
+  .post((req, res) => {
+    res.statusCode = 403;
+    res.end(`POST operation not supported on /listings/${req.params.listingId}`);
+  })
+
+  .put((req, res) => {
+    res.write(`Updating the listing: ${req.params.listingId}\n`);
+    res.end(`Will update the listing: ${req.body.name}
+        with description: ${req.body.description}`);
+  })
+  .delete((req, res) => {
+    res.end(`Deleting listing ID: ${req.params.listingId}`);
+  });
+
 module.exports = listingRouter;
