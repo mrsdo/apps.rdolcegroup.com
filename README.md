@@ -29,10 +29,15 @@ A list of packages used for the backend server environment.
 Map: x = done p = in process r = researching
 
 [x] - Express Server with Routing and Middleware 01.14.23
+
 [x] - Integrating MongoDB
+
 [x] - Adding Middleware
+
 [i] - Integrating client-server front-end
+
 [i] - Adding controllers
+
 [i] - Adding routes
 
 ---
