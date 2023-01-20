@@ -25,10 +25,15 @@ A list of packages used for the backend server environment.
 
 
 ---
-## Server Features
+## Express Server Features
+Map: x = done p = in process r = researching
+
 [x] - Express Server with Routing and Middleware 01.14.23
-[ ] - Integrating MongoDB with Listing data, images, and APIs 01.21.23
-[ ] - Adding User Authentication 01.21.23
+[x] - Integrating MongoDB
+[x] - Adding Middleware
+[i] - Integrating client-server front-end
+[i] - Adding controllers
+[i] - Adding routes
 
 ---
 ## POSTMAN REST API Testing (GET | POST | PUT | DELETE)
