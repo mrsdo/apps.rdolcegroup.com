@@ -19,5 +19,10 @@ npm-debug.*
 # JetBrains
 .idea/sonarlint/
 
-# Custom
+# Custom Directories
+/config/
+
+# Custom Files
 *.png
+/man/rdolcegroup-app.docx
+/man/~$olcegroup-app.docx
