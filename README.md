@@ -7,22 +7,21 @@
 Creating a simple MERN Vacation Listings project demonstrating technologies used to build portfolios of technologies learned while attending Nucamp Bootcamp.
 When developing this application there were a variety of source codes, tutorials, books and web articles analyzed to explore the most effective way for development of this application on a short scale.
 
-## Key Changes Anticipating Deployment limitations
-The site will be setup to use a virtual hosted environment at https://rdolcegroup.localhost:80
 
-## Key Environment Features
-A list of packages used in this project.
+## Express Server Environment
+A list of packages used for the backend server environment.
 
 
-| Package                              | Description                                          |
-|--------------------------------------|------------------------------------------------------|
-| `Express`                            | https://www.npmjs.com/package/express                |
-| `nodemon `                           | https://www.npmjs.com/package/nodemon                |
-| `morgan`                             | https://www.postman.com/downloads/                   |
-| `vhost`                              | https://www.npmjs.com/package/express                |
-| `Morgan `                            | https://www.npmjs.com/package/morgan                 |
-| `Postman Application`                | https://www.postman.com/downloads/                   |
-
+| Package        | Description                               |
+|----------------|-------------------------------------------|
+| `body-parser`  | https://www.npmjs.com/package/body-parser |
+| `CORS`         | https://www.npmjs.com/package/cors        |
+| `dotenv`       | https://www.npmjs.com/package/dotenv      |
+| `express`      | https://www.npmjs.com/package/express     |
+| `mongodb`      | https://www.npmjs.com/package/mongodb     |
+| `mongoose`     | https://www.npmjs.com/package/mongoose    |
+| `morgan`       | https://www.npmjs.com/package/morgan      |
+| `nodemon`      | https://www.npmjs.com/package/nodemon     |
 
 
 ---
@@ -55,6 +54,8 @@ The following are screen examples demonstrating the functionality of Express and
 > Gatsby plugin for react-native-web | https://www.gatsbyjs.com/plugins/gatsby-plugin-react-native-web/#gatsby-plugin-for-react-native-web
 
 > Const vs Function | https://dev.to/ugglr/react-functional-components-const-vs-function-2kj9
+> 
+> Postman | https://www.postman.com/downloads/
 </details>
 
 <details>
