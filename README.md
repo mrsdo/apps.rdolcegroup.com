@@ -7,15 +7,21 @@
 Creating a simple MERN Vacation Listings project demonstrating technologies used to build portfolios of technologies learned while attending Nucamp Bootcamp.
 When developing this application there were a variety of source codes, tutorials, books and web articles analyzed to explore the most effective way for development of this application on a short scale.
 
+## Key Changes Anticipating Deployment limitations
+The site will be setup to use a virtual hosted environment at https://rdolcegroup.localhost:80
+
 ## Key Environment Features
 A list of packages used in this project.
 
 
-| Package                           | Description                           |
-|-----------------------------------|---------------------------------------|
-| `Express`                         | https://www.npmjs.com/package/express |
-| `Morgan middleware`               | https://www.npmjs.com/package/morgan  |
-| `Postman Application`             | https://www.postman.com/downloads/    |
+| Package                              | Description                                          |
+|--------------------------------------|------------------------------------------------------|
+| `Express`                            | https://www.npmjs.com/package/express                |
+| `nodemon `                           | https://www.npmjs.com/package/nodemon                |
+| `morgan`                             | https://www.postman.com/downloads/                   |
+| `vhost`                              | https://www.npmjs.com/package/express                |
+| `Morgan `                            | https://www.npmjs.com/package/morgan                 |
+| `Postman Application`                | https://www.postman.com/downloads/                   |
 
 
 
