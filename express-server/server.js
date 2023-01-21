@@ -16,20 +16,8 @@ const morgan = require('morgan'); //HTTP request logger middleware for node.js
 const logger = require('./utils/logger')
 
 
-
-// Import local dependencies
-dotenv.config({ path: './config/config.env' });
-const connectDB = require('./config/db');
-const http = require('http');
-const path = require('path');
-
-// Connect to MongoDB
-connectDB();
-
 // Create Express app
 const app = express();
-
-
 
 
 // Middleware
@@ -38,14 +26,22 @@ app.use(bodyParser.json());
 app.use(cors({origin: true, credentials: true}));
 app.use(logger);
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 
-// Set default public directory
-app.use(express.static(path.join(__dirname, 'public')));
+// Set default routes, directories and paths
+/* app.use(express.static(path.join(__dirname, 'public'))); */
+/**
+ * Create a test JSON route
+ */
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Welcome to the User Onboarding Application'
+  });
+});
 
 // Set hostname. Set port use process.env to define port or use 8080
 
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 8080;
 
 // Listener: Outputs status of server to console.log
 const server = app.listen(port, () => console.log(`Server listening on port ${port}`));
