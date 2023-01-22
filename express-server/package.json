@@ -1,21 +1,31 @@
 {
   "name": "vacation-listings-app",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "MERN stack featuring vacation rental listings for the R.Dolce Group.",
   "main": "server.js",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"apps.rdolcegroup.com/**/*.js\"",
     "start": "nodemon server.js"
   },
   "dependencies": {
     "body-parser": "^1.20.1",
+    "chalk": "^5.2.0",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "http-errors": "^2.0.0",
     "http-proxy-middleware": "^2.0.6",
     "mongodb": "^4.13.0",
     "mongoose": "^6.8.4",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.20"
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3"
   }
 }

@@ -1,8 +1,12 @@
-# project root
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#
+# dependencies
 node_modules/
 .expo/
+/.pnp
 dist/
 npm-debug.*
+*.pnp.js
 *.jks
 *.p8
 *.p12
@@ -10,19 +14,41 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 
-# express-server
-/express-server/node_modules
+# testing
+/coverage
+
+# production
+**/._**
+~
+*.pem
+/build
+.gitattributes
+.gitignore
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # macOS
 .DS_Store
+**/.DS_Store
 
 # JetBrains
-.idea/sonarlint/
+/.idea/sonarlint/*
 
 # Custom Directories
 /config/
 
 # Custom Files
 *.png
+/_docs
+/_archive
+/client-server/node_modules
+/express-server/node_modules
+
+# Manuals (Man)
 /man/rdolcegroup-app.docx
 /man/~$olcegroup-app.docx

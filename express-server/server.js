@@ -1,4 +1,10 @@
 /*
+ * server.js | M.Dolce, React Native Portfolio, marti.dolce@29signals.org, 202212
+ * Function ---
+ * This file provides baseline functionality for the app
+ * ------------
+ */
+/*
  * server.js | MDolce, React Native Portfolio, marti.dolce@29signals.org
  * Function ---
  * This file is provides loading capabilities and a splash page while the
@@ -7,51 +13,41 @@
  * ------------
  */
 
-// import modules
-const express = require('express'); //Fast, un-opinionated, minimalist web framework for Node.js
-const bodyParser = require('body-parser');
-const cors = require('cors');  //restricts resources on a web page to be requested from another domain outside the domain from which the first resource was served.
-const dotenv = require('dotenv'); //Loads environment variables from a .env file into process.env
-const morgan = require('morgan'); //HTTP request logger middleware for node.js
-const logger = require('./utils/logger')
 
+// Import Global Modules
+globals = require('./config/globals');
 
+/**
+ * Application Configurations
+ */
+const corsOptions = {
+  origin: 'https://localhost:8081'
+}
+const app = globals.express();
+const PORT = process.env.PORT || 8080;
 
-// Import local dependencies
-dotenv.config({ path: './config/config.env' });
-const connectDB = require('./config/db');
-const http = require('http');
-const path = require('path');
+/**
+ * Body Parser Middleware
+ */
 
-// Connect to MongoDB
-connectDB();
+ app.use(globals.bodyParser.urlencoded({ extended: true }));
+ app.use(globals.bodyParser.json());
+ app.use(globals.cors(corsOptions));
 
-// Create Express app
-const app = express();
+/**
+ * Create a test JSON route
+ */
+app.get('/', (req, res) => {
+  console.log(`Initializing the Application`)
+  res.json({
+    message: 'Welcome to the Vacation Rental Application'
+  });
+});
+ 
+ /**
+  * Database Configurations
+  */
 
-
-
-
-// Middleware
-app.use(morgan('dev'));
-app.use(bodyParser.json());
-app.use(cors({origin: true, credentials: true}));
-app.use(logger);
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-
-// Set default public directory
-app.use(express.static(path.join(__dirname, 'public')));
-
-// Set hostname. Set port use process.env to define port or use 8080
-
-const port = process.env.PORT || 5001;
-
-// Listener: Outputs status of server to console.log
-const server = app.listen(port, () => console.log(`Server listening on port ${port}`));
-
-// Shut down server if we run into problems
-process.on('unhandledRejection', (err) => {
-  console.log(`Error: ${err.message}`)
-  server.close(() => process.exit(1))
-})
+app.listen(PORT, () => {
+   console.log(`Server is listening on PORT ${PORT}`)
+ })
