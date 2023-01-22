@@ -12,16 +12,18 @@ When developing this application there were a variety of source codes, tutorials
 A list of packages used for the backend server environment.
 
 
-| Package        | Description                               |
-|----------------|-------------------------------------------|
-| `body-parser`  | https://www.npmjs.com/package/body-parser |
-| `CORS`         | https://www.npmjs.com/package/cors        |
-| `dotenv`       | https://www.npmjs.com/package/dotenv      |
-| `express`      | https://www.npmjs.com/package/express     |
-| `mongodb`      | https://www.npmjs.com/package/mongodb     |
-| `mongoose`     | https://www.npmjs.com/package/mongoose    |
-| `morgan`       | https://www.npmjs.com/package/morgan      |
-| `nodemon`      | https://www.npmjs.com/package/nodemon     |
+| Package         | Description                                 |
+|-----------------|---------------------------------------------|
+| `body-parser`   | https://www.npmjs.com/package/body-parser   |
+| `cookie-parser` | https://www.npmjs.com/package/cookie-parser |
+| `CORS`          | https://www.npmjs.com/package/cors          |
+| `dotenv`        | https://www.npmjs.com/package/dotenv        |
+| `express`       | https://www.npmjs.com/package/express       |
+| `mongodb`       | https://www.npmjs.com/package/mongodb       |
+| `mongoose`      | https://www.npmjs.com/package/mongoose      |
+| `morgan`        | https://www.npmjs.com/package/morgan        |
+| `nodemon`       | https://www.npmjs.com/package/nodemon       |
+| `winston`       | https://www.npmjs.com/package/winston       |
 
 
 ---
@@ -64,7 +66,9 @@ The following are screen examples demonstrating the functionality of Express and
 > Gatsby plugin for react-native-web | https://www.gatsbyjs.com/plugins/gatsby-plugin-react-native-web/#gatsby-plugin-for-react-native-web
 
 > Const vs Function | https://dev.to/ugglr/react-functional-components-const-vs-function-2kj9
-> 
+
+> Logging in Express JS using winston and morgan | https://lioncoding.com/logging-in-express-js-using-winston-and-morgan/
+
 > Postman | https://www.postman.com/downloads/
 </details>
 
