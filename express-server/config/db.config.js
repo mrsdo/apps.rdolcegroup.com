@@ -12,9 +12,5 @@
 module.exports = {
     HOST: "localhost",
     PORT: 27017,
-    DB: "localhost_react_user_onboarding"
+    MONGODB_NAME: "rdolcegroup"
 };
-
-/**
- * Connect to MongoDB database
- */
