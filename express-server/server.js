@@ -15,7 +15,9 @@
 
 
 // Import Global Modules
+
 globals = require('./config/globals');
+
 
 /**
  * Application Configurations
@@ -27,12 +29,16 @@ const app = globals.express();
 const PORT = process.env.PORT || 8080;
 
 /**
- * Body Parser Middleware
+ * Middleware
  */
 
  app.use(globals.bodyParser.urlencoded({ extended: true }));
  app.use(globals.bodyParser.json());
  app.use(globals.cors(corsOptions));
+ app.use(globals.morgan('dev'));
+ app.use(globals.logger);
+
+
 
 /**
  * Create a test JSON route
@@ -43,10 +49,11 @@ app.get('/', (req, res) => {
     message: 'Welcome to the Vacation Rental Application'
   });
 });
- 
- /**
-  * Database Configurations
-  */
+
+/**
+ * Logging API Test
+ */
+
 
 app.listen(PORT, () => {
    console.log(`Server is listening on PORT ${PORT}`)
