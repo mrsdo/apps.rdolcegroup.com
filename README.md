@@ -23,7 +23,6 @@ A list of packages used for the backend server environment.
 | `mongoose`      | https://www.npmjs.com/package/mongoose      |
 | `morgan`        | https://www.npmjs.com/package/morgan        |
 | `nodemon`       | https://www.npmjs.com/package/nodemon       |
-| `winston`       | https://www.npmjs.com/package/winston       |
 
 
 ---
