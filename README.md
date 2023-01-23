@@ -17,13 +17,11 @@ A list of packages used for the backend server environment.
 | `body-parser`   | https://www.npmjs.com/package/body-parser   |
 | `cookie-parser` | https://www.npmjs.com/package/cookie-parser |
 | `CORS`          | https://www.npmjs.com/package/cors          |
-| `dotenv`        | https://www.npmjs.com/package/dotenv        |
 | `express`       | https://www.npmjs.com/package/express       |
 | `mongodb`       | https://www.npmjs.com/package/mongodb       |
 | `mongoose`      | https://www.npmjs.com/package/mongoose      |
 | `morgan`        | https://www.npmjs.com/package/morgan        |
 | `nodemon`       | https://www.npmjs.com/package/nodemon       |
-| `winston`       | https://www.npmjs.com/package/winston       |
 
 
 ---
