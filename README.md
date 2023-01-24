@@ -46,12 +46,11 @@ Map: x = done p = in process r = researching
 The following are screen examples demonstrating the functionality of Express and the built-in express.json() routing features.
 
 
-| GET                                                                       | POST                                                                       | PUT                                                                        | DELETE                                                                    | 
-|---------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------| 
-|<img src="man/dev-assets/postman/postman-03.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-05.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-07.jpg" width="300" height="180"> |<img src="man/dev-assets/postman/postman-09.jpg" width="300" height="180"> | 
-|<img src="man/dev-assets/postman/postman-04.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-06.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-08.jpg" width="300" height="180"> |<img src="man/dev-assets/postman/postman-10.jpg" width="300" height="180"> | 
+| GET                                                                        | POST                                                                       | PUT                                                                        | DELETE                                                                     |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| <img src="man/dev-assets/postman/postman-03.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-05.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-07.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-09.jpg" width="300" height="180"> |
+| <img src="man/dev-assets/postman/postman-04.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-06.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-08.jpg" width="300" height="180"> | <img src="man/dev-assets/postman/postman-10.jpg" width="300" height="180"> | 
 
----
 
 ## Resources & Inspiration
 
