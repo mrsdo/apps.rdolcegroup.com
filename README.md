@@ -34,6 +34,8 @@ Map: x = done p = in process r = researching
 
 [x] - Adding Middleware
 
+[p] - Adding Authentication & private routing
+
 [i] - Integrating client-server front-end
 
 [i] - Adding controllers
