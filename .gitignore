@@ -50,5 +50,5 @@ yarn-error.log*
 /express-server/node_modules
 
 # Manuals (Man)
-/man/rdolcegroup-app.docx
-/man/~$olcegroup-app.docx
+/man/
+man/rdg-MERN-publication-sm.docx
